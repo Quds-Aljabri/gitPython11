@@ -10,6 +10,8 @@ operation = input("Please enter one of + - * or /: ")
 if operation == "+":
     result = num1 + num2
 
+if operation == "-":
+    result = num1 - num2
 else:
     print("[Warn]Operation not supported!")
 
