@@ -15,6 +15,9 @@ elif operation == "-":
 
 elif operation == "*":
     result = num1 * num2
+
+elif operation == "/":
+    result = num1 / num2
 else:
     print("[Warn]Operation not supported!")
 
